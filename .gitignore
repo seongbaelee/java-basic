@@ -1,0 +1,29 @@
+# Eclipse specific files
+.classpath
+.project
+.settings/
+
+# Build output directories
+/bin/
+/target/
+
+# Eclipse workspace metadata 
+.metadata/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IntelliJ IDEA
+*.iml
+.idea/
+
+# Maven / Gradle
+*.jar
+*.war
+*.ear
+/build/
+.gradle/
