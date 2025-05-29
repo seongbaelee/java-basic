@@ -1,16 +1,17 @@
 package day15;
 
-class Test1 {
-	void m1() {
+final class Test1 {
+	final void m1() {
 		System.out.println("This is m1 from Test1");
 	}
 }
 
-class Test2 extends Test1 {
-	void m1() {
-		System.out.println("This is m1 from Test2");
-	}
-}
+//class Test2 extends Test1 {
+//	//cannot override final method
+//	void m1() {
+//		System.out.println("This is m1 from Test2");
+//	}
+//}
 
 public class FinalKeyword2 {
 
